@@ -1,20 +1,20 @@
 const config = {
   data: {
     // Main invitation title that appears on the page
-    title: "Pernikahan Fulan & Fulana",
+    title: "Majlis Perkahwinan Adlina & Ikhwan",
     // Opening message/description of the invitation
     description:
-      "Kami akan menikah dan mengundang Anda untuk turut merayakan momen istimewa ini.", // Nanti ini dibikin random
+      "Kami akan melangsungkan perkahwinan dan dengan penuh rasa gembira menjemput anda untuk bersama-sama meraikan detik istimewa ini.", // Nanti ini dibikin random
     // Groom's name
-    groomName: "Fulan",
+    groomName: "Ikhwan",
     // Bride's name
-    brideName: "Fulana",
+    brideName: "Adlina",
     // Groom's parents names
     parentGroom: "Bapak Groom & Ibu Groom",
     // Bride's parents names
     parentBride: "Bapak Bride & Ibu Bride",
     // Wedding date (format: YYYY-MM-DD)
-    date: "2024-12-24",
+    date: "2026-04-19",
     // Google Maps link for location (short clickable link)
     maps_url: "https://goo.gl/maps/abcdef",
     // Google Maps embed code to display map on website
@@ -24,9 +24,9 @@ const config = {
     // Event time (free format, example: "10:00 - 12:00 WIB")
     time: "16:16 - 17:30 WIB",
     // Venue/building name
-    location: "Grand Ballroom, Hotel Majesty",
+    location: "Putra Glass Hall",
     // Full address of the wedding venue
-    address: "Jl. Jend. Sudirman No.1, Jakarta",
+    address: "Putra Glass Hall",
     // Image that appears when link is shared on social media
     ogImage: "/images/og-image.jpg",
     // Icon that appears in browser tab
@@ -34,27 +34,13 @@ const config = {
     // List of event agenda/schedule
     agenda: [
       {
-        // First event name
-        title: "Akad Nikah",
-        // Event date (format: YYYY-MM-DD)
-        date: "2024-12-24",
-        // Start time (format: HH:MM)
-        startTime: "16:16",
-        // End time (format: HH:MM)
-        endTime: "17:30",
-        // Event venue
-        location: "Grand Ballroom, Hotel Majesty",
-        // Full address
-        address: "Jl. Jend. Sudirman No.1, Jakarta",
-      },
-      {
         // Second event name
-        title: "Resepsi Nikah",
-        date: "2024-12-24",
-        startTime: "16:16",
-        endTime: "17:30",
-        location: "Grand Ballroom, Hotel Majesty",
-        address: "Jl. Jend. Sudirman No.1, Jakarta",
+        title: "Majlis Resepsi",
+        date: "2026-04-19",
+        startTime: "11:0",
+        endTime: "16:30",
+        location: "Putra Glass Hall",
+        address: "Putra Glass Hall",
       }
       // You can add more agenda items with the same format
     ],
